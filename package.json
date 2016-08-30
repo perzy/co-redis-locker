@@ -1,0 +1,29 @@
+{
+  "name": "co-redis-locker",
+  "version": "0.1.0",
+  "description": "Distributed locker by redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perzy/co-redis-locker.git"
+  },
+  "keywords": [
+    "locker",
+    "redis",
+    "distributed",
+    "co",
+    "koa"
+  ],
+  "author": "jerrywu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perzy/co-redis-locker/issues"
+  },
+  "homepage": "https://github.com/perzy/co-redis-locker#readme",
+  "dependencies": {
+    "ioredis": "^2.3.0"
+  }
+}
