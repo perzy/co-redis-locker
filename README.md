@@ -14,8 +14,8 @@ $ npm install --save co-redis-locker
 
 
 ```js
-const RedisLocker = require('locker-redis');
-const LockerTimeoutError = require('locker-redis').LockerTimeoutError;
+const RedisLocker = require('co-redis-locker');
+const LockerTimeoutError = require('co-redis-locker').LockerTimeoutError;
 ```
 
 ### RedisLocker(name,options)
